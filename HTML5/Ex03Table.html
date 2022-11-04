@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex03 Table</title>
+    <link rel="icon" type="image/png" href="../static/images/header.png">
+    <style type="text/css">
+      /*CSS*/
+
+      table.student-table {
+        width: 600px;
+      }
+      table.student-table thead {
+        background-color: lightgrey;
+      }
+      /*a'n'+ b*/
+      /*an:  life cicle
+        b:  index start */
+      table.student-table tbody tr:nth-child(2n ){
+        background-color: grey ;
+      }
+      table.student-table td{
+          text-align: center;
+      }
+
+    </style>
+</head>
+<body>
+
+  <h3>Table</h3>
+  <table class="student-table" border="1" cellspacing="0" cellpadding="10">
+    <thead>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Age</th>
+        <th rowspan="2">Email</th>
+        <th colspan="2">Phone</th>
+      </tr>
+      <tr>
+        <th>Fax1</th>
+        <th>Fax2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Peter</td>
+        <td>19</td>
+        <td>Peter@gmail.com</td>
+        <td>12345</td>
+        <td>12346</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>18</td>
+        <td>John@gmail.com</td>
+        <td>12347</td>
+        <td>12348</td>
+      </tr>
+      <tr>
+        <td>Herry</td>
+        <td>18</td>
+        <td>Herry@gmail.com</td>
+        <td>12349</td>
+        <td>12341</td>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>19</td>
+        <td>Peter@gmail.com</td>
+        <td>12345</td>
+        <td>12346</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>18</td>
+        <td>John@gmail.com</td>
+        <td>12347</td>
+        <td>12348</td>
+      </tr>
+      <tr>
+        <td>Herry</td>
+        <td>18</td>
+        <td>Herry@gmail.com</td>
+        <td>12349</td>
+        <td>12341</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

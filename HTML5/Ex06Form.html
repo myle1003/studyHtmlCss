@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex06 Form tags</title>
+    <style type="text/css">
+      .page-title{
+        color: green;
+        text-align: center;
+      }
+      tr td {
+        padding : 8px;
+    </style>
+</head>
+<body>
+  <head>
+    <h2 class="page-title">Well com to Page</h2>
+    <hr>
+  </head>
+  <main>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text" name="firstName"></td>
+          </tr>
+          <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text" name="lastName"></td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <label>Male</label> <input type="radio" name="gender-group">
+              <label>Female</label> <input checked type="radio" name="gender-group">
+            </td>
+          </tr>
+          <tr>
+            <td><label>Age</label></td>
+            <td><input type="number" min="14" max="30" name="age"></td>
+          </tr>
+           <tr>
+            <td><label>University</label></td>
+            <td>
+              <select>
+                <option value="BK">Bach Khoa</option>
+                <option value="SP">Su Pham</option>
+                <option value="NN">Ngoai Ngu</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Languages</label></td>
+            <td>
+              <input type="checkbox"> Java
+              <input type="checkbox"> PHP
+              <input type="checkbox"> Nodejs
+            </td>
+          </tr>
+           <tr>
+            <td><label>Date of birth</label></td>
+            <td><input type="date" pattern="dd/MM/yyyy" name="date"></td>
+          </tr>
+          <tr>
+            <td><label>Emai</label></td>
+            <td><input type="Emai" name="email"></td>
+          </tr>
+          <tr>
+            <td><label>Password</label></td>
+            <td><input type="Password" name="password"></td>
+          </tr>
+          <tr>
+            <td><input type="Button" name="submit" value="Sign up"></td>
+            <td><input type="Reset" name="reset" value="Reset"></td>
+          </tr>
+
+
+
+
+        </tbody>
+      </table>
+    </form>
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>
